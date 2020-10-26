@@ -1,0 +1,28 @@
+body {
+    font-size: ;
+    width: ;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template: 
+    "header header header"
+    "left center right"
+    "footer footer footer";
+    background-color: rgb(248, 241, 229);
+}
+header {
+    grid-area: header;
+
+}
+main {
+    grid-area: center;
+}
+nav {
+    grid-area: left;
+}
+aside {
+    grid-area: right;
+}
+footer {
+    grid-area: footer;
+}
